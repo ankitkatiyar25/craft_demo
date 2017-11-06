@@ -12,6 +12,11 @@ import org.springframework.stereotype.Component;
 
 import com.craft_demo.component.Twitter;
 
+
+/* IMPORTANT : This resource is to populate the data in in-memory database during App start.
+ * App resource is the main resource class.
+ */
+
 @Path("/user")
 @Component
 public class UserResource {
